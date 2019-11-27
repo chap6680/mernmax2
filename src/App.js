@@ -1,6 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
+import GoalList from './component/GoalList';
 
 const App = () => {
   /*  Original setup
@@ -38,11 +39,8 @@ function App() {
 return (
   <div className="course-goals">
     <h2>course goals</h2>
-  <ul className="goal-list">
-    <li>Finish course</li>
-    <li>learn about main topic</li>
-    <li>help other students</li>
-</ul>
+  <GoalList></GoalList>
+
 </div>
 
 );
