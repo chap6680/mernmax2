@@ -1,7 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
+const App = () => {
+  /*  Original setup
 function App() {
   return (
     <div className="App">
@@ -20,7 +22,30 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  ); */
+
+//these three do the same thing (some techncial differences between 2 and 3 (not sure why and 2 seems perferrable do)
+//1  return <h1>A react App!</h1>
+//2   return React.createElement('h1',{},'Hi, this is React2')
+/*3 class App extends React.Component{
+    render()
+      return <h1 title="this works">A react App!</h1>
+}
+}
+
+
+  return React.createElement('h1',{},'Hi, this is React2a')*/
+return (
+  <div className="course-goals">
+    <h2>course goals</h2>
+  <ul className="goal-list">
+    <li>Finish course</li>
+    <li>learn about main topic</li>
+    <li>help other students</li>
+</ul>
+</div>
+
+);
 }
 
 export default App;
