@@ -20,7 +20,7 @@ return React.createElement('h1',{},'Hi, this is React2a')*/
   const [courseGoals,setCourseGoals] = useState([
     {id: 'cg1', text: 'Finish the course'},
     {id: 'cg2', text: 'Learn all abo tthe course main topic'},
-    {id: 'cg3', text: 'help other students in the course Q&A'},
+    {id: 'cg3', text: 'help other students in the course Q & A'},
   ]);
 
 const addNewGoalHandler = (newGoal) => {
